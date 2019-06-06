@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Flugt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="shortcut icon" type="image/png" href="img/Fav%20icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <!-- Forside -->
+  
+  <!-- Section indikere 100vh og skaber viewporten -->
+  <section id="forside" class="green">
+   
+    <!-- Left og Bottom skaber sidens "mønster-vægge" -->
+    <article class="left">
+    </article>
+       
+         <img src="img/logo%20white.png" class="logo" alt="logo">
+             
+         <h1 class="overskrift">Et glimt af lejren</h1>
+         <h2 class="center" id="javatext"></h2>
+     
+     
+    <article class="bottom">    
+    </article>
+     
+  </section>
+   
+   <!-- Præsentationsvideo -->
+  <section id="section1" class="blue"> 
+    
+    <article class="left">
+    </article>
+        
+         <h2 class="top">Præsentations Video</h2>
+    
+    
+    <!-- Navigation - Hver dot kalder en Section og gennem Smooth Scroll behaivor, bevæger skærmen sig flydende til det kaldte Id --> 
+        <nav>   
+       
+            <a href="#forside"><article class="dot" id="dot1"><p class="navi-tekst">Forside</p></article></a>
+        
+            <a href="#section1"><article class="dot" id="dot2"><p class="navi-tekst">Video</p></article></a>
+        
+            <a href="#section2"><article class="dot" id="dot3"><p class="navi-tekst">Koncept</p></article></a>
+        
+            <a href="#section3"><article class="dot" id="dot4"><p class="navi-tekst">appen</p></article></a>
+        
+            <a href="#section4"><article class="dot" id="dot5"><p class="navi-tekst">Kontakt</p></article></a>
+    
+        </nav>
+    
+    <!-- Præsentationsvideo er en embeded youtube video. Dette er for at gøre det enkelt for brugeren. -->
+    
+    <iframe src="https://www.youtube.com/embed/hQOxvknOZlE" class="video" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    
+    <article class="bottom">    
+    </article>
+    
+  </section>
+    
+    <!-- Koncept side -->
+  <section id="section2" class="red">
+        
+    
+    <article class="left">
+    </article>
+       
+        <h2 class="top">Koncept</h2>
+        
+        <!-- Slideshow knap - Onlclick funktion i forbindelse med JavaScript-->
+        
+        <article class="slideshow-container">
+            <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+        
+            <!-- Første præsentation i slideshow -->
+        
+            <article class="slideJs fade" id="slide1">
+                <article class="tekst-container"><h2>Installation</h2><br>
+        
+                    <p>Oplev Aal Plantagen i et nyt perspektiv.<br><br>
+                    Augmented Reality teknologi kombineres med sanselige oplevelser i plantagen, og skaber et nyt og unikt blik ind i vestkystens ukendte fortid.</p>
+                    
+                </article>
+        
+        
+                <img src="img/Udstilling%20-%20pitch%20Done.png" class="udstilling" alt="Koncept illustration">
+            </article>
+        
+        <!-- Anden præsentation i slideshow -->
+        
+        <article class="slideJs fade" id="slide2">
+            <article class="tekst-container"><h2>Augmented Reality</h2><br>
+        
+                <p>Appen viser dig en person der fortæller historien om området du befinder dig i. Den giver dig et blik ind fortiden. 
+                <br><br>
+                Augmented Reality teknologien puster liv i historierne fra de tyske flygtninge.
+                <br><br>
+                Da ikke alle historier er børnevenlige, vil forældre nemt kunne navigere i, hvilke historier de viser, og ikke viser, gennem advarsler på    ruten.</p>
+        
+            </article>
+        
+        
+            <img src="img/UdstillingApp.png" class="udstilling" alt="App i brug">
+        </article>
+        
+        <!-- Tredje præsentation i slideshow -->
+        
+        <article class="slideJs fade" id="slide3">
+            <article class="tekst-container"><h2>Rute</h2><br>
+        
+                <p>Bliv guided gennem otte stadier som de tyske flygtninge 
+                har gennemgået, og sæt dit egen verdensperspektiv under loopen.
+                <br><br>
+                Nyd den smukke natur og bliv klogere på din omverden.</p>
+        
+        
+            </article>
+        
+        
+            <img src="img/Potentiel%20rute%20v2.png" class="udstilling" alt="Potentiel rute">
+        
+        </article>
+        
+        <!-- Slideshow knap - Onlclick funktion i forbindelse med JavaScript  -->
+        
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        <article class="bottom">
+        </article>
+    
+        </article>
+  
+   </section>
+    
+    
+    <!-- Appside -->
+    
+    <section id="section3" class="green">
+        
+        <article class="left">
+        </article>
+     
+     
+        <h2 class="top">App</h2>
+      
+      
+        <a class="previous opacity" >&#10096;</a>
+            <article class="tekst-container">
+        
+                <h2>Appen</h2>
+        
+        
+                    <p>Appen kommer med en nem guide, så alle kan være med. Den skal være oversat til de 3 mest talte sprog blandt mueseets gæster og der er lagt stor fokus på brugervenlighed i User Interfacet.
+                    <br><br>Et indbygget kort, guider brugeren igennem ruten.<br><br>Ved hjælp af AR-teknologien, skaber appens kamera en unik oplevelse, der bringer historien helt tæt på. </p>
+        
+            </article>
+        
+        
+        <img src="img/Appdemo.png" class="udstilling" alt="App i brug">
+        
+        <a class="next opacity" >&#10095;</a>
+        <article class="bottom">    
+        </article>
+        
+    </section>
+    
+    
+    
+    <!-- Kontakt -->
+    
+    <section id="section4" class="black">
+    
+        <article class="left">
+        </article>
+     
+        <h2 class="top">Kontakt</h2>
+      
+       
+        <a class="next opacity" >&#10095;</a>
+        <article class="tekst-container2"><h2>Kristoffer<br> Grum</h2>
+        
+             <p class="italic">Kristoffer.sg123@gmail.com</p>
+             <img src="img/Kristoffer.JPG" alt="Kristoffer Sivgaard Grum" class="portrait">
+
+        </article>
+        
+        <article class="tekst-container3"><h2>Emil<br> Andersen</h2>
+        
+             <p class="italic">Emila112@hotmail.com</p>
+             <img src="img/Emil.JPG" alt="Emil Andersen" class="portrait">
+        
+        </article>
+        
+        <article class="tekst-container3 margin"><h2>Zachary<br> Aagesen</h2>
+        
+             <p class="italic">Zacharyaagesen@gmail.com</p>
+             <img src="img/Zach.JPG" alt="Zachary Aagesen" class="portrait">
+        
+        
+        </article>
+        
+        <article class="tekst-container3"><h2>Mikkel<br> Koopmann</h2>
+        
+             <p class="italic">Koopmannmikkel@gmail.com</p>
+             <img src="img/Mikkel.JPG" alt="Mikkel Koopmann" class="portrait">
+        
+        
+        </article>
+        
+        
+        
+        
+        <a class="previous opacity" >&#10096;</a>
+        
+        <article class="bottom">    
+        </article>
+        
+        
+    </section>
+   
+   <!-- JavaScript sat i bunden, så html'en læser den sidst.  -->
+   
+    <script src="js.js"> </script>
+</body>
+</html>
